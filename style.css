@@ -1,0 +1,207 @@
+  body {
+    background-image: url('Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .Hmain{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:-10px;
+  }
+  .Hmargin{
+    margin-bottom:1050px;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+  }
+
+  .nav {
+    display: flex;
+    gap: 100px;
+    font-family: "Mediaval";
+  }
+
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "Mediaval";
+    src: url("Mediaval.woff2") format("woff2");
+  }
+
+  .container {
+    height: 100vh;
+  }
+  .login-form {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    font-family: "Mediaval";
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    font-size:30px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #728c69;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Mediaval";
+    font-size: 25px;
+  }
+
+  .register {
+    color:gray;
+    font-weight: bold;
+  }
+  .register:visited{
+    color:#728c69;
+    font-weight: bold;
+  }
+  .form-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .form-element label {
+    flex-basis: 30%;
+    margin-right: 10px;
+  }
+  .containerIdx {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .containerIdx img{
+    width:1300px;
+    padding-top:200px;
+    padding-bottom:100px;
+  }
+  .containeridx video{
+    border:solid 4px #ad6d2f;
+    border-radius:4px;
+    margin-bottom:50px;
+  }
+  .faq-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border:5px solid black;
+    border-radius: 5px;
+    color: #fff;
+    width:600px;
+    font-size: 20px;
+  }
+  .faq {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .question {
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Mediaval";
+    color:#728c69;
+  }
+ 
+  .answer {
+    display: none;
+    margin-top: 10px;
+    font-family: "Mediaval";
+  }
+
+  .answer.show {
+    display: block;
+  }
+
+  .games {
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left:15px;
+    padding-right:20px;
+    padding-top:15px;
+    padding-bottom:15px;
+    height: 100vh;
+  }
+
+  .games img {
+    margin:0 auto;
+    width: 100%;
+    height: auto;
+    border:4px solid #728c69;
+    border-radius:5px;
+  }
+  .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    flex-direction:column;
+  }
+  .games h2 {
+    color: white;
+    margin: 10px 0;
+  }
+
+  .games p {
+    color: white;
+    margin: 20px 0;
+  }
+  .games-text {
+    flex-grow: 1;
+    font-family: "Mediaval";
+  }
+  #map {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    border:4px solid #728c69;
+  }
+  .aboutus-container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .wrapper {
+    height: 100vh;
+    color:white;
+    font-family:"Mediaval"
+  }
